@@ -1,0 +1,166 @@
+/*mobile css*/
+@media only screen and (max-width: 767px) {
+	* {
+		font-size: 14px;
+	}
+	.carousel-control {
+		margin-top: 50% !important;
+	}
+	.desk-search {
+		display: none;
+	}
+	.carousel {
+		margin-top: 14px;
+		margin-bottom: 14px;
+	}
+	.filter-items-div {
+		max-height: 200px !important;
+		overflow: scroll;
+	}
+	.comments-modal {
+		max-height: 100% important;
+	}
+	.multiple-offers-row {
+		margin-top: 10px;
+	}
+	.coupon-labels {
+		margin-bottom: 10px !important;
+	}
+	.couponTitle {
+		font-size: 12px;
+	}
+	.loader {
+		left: 10%;
+	}
+	.mobile-search-close-icon {
+		position: absolute;
+		right: 100px;
+		top: 24px;
+		z-index: 10;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+	.expand-search-bar {
+		position: absolute;
+		width: 100% !important;
+		background: white;
+	}
+	.fa, .glyphicon {
+		font-size: 20px !important;
+	}
+	.pagination-div, .pagination {
+		font-size: 11px !important;
+	}
+	.input-group-addon {
+		left: -50px;
+	}
+	#autosuggetions-mobile {
+		min-width: 110px;
+	}
+	.pagination>li>a, .pagination>li>span {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.homepage-msg h3 {
+		font-size: 14px !important;
+	}
+	.navigation-btn, .coupon-comments, .copy-coupon, .offer-page-link {
+		padding: 3px 3px;
+	    text-transform: capitalize;
+	    text-align: center;
+	}
+	.navigation-btn .fa, .coupon-comments .fa, .copy-coupon .fa, .offer-page-link .fa {
+		font-size: 12px !important;
+	}
+	.coupon-code-div a,i{
+	 margin-left:6px;
+	}
+	#filterIcon .glyphicon-filter,.mobile-filters-close-icon,.glyphicon-arrow-up{
+	  font-size: 30px !important;
+	}
+	
+	.navbar-nav{
+	  margin-left: 0px !important;
+	}
+	.jquery-filter{
+	  padding-left: 10% !important;
+	}
+	.search-box-div{
+	  margin-left: 0%;
+	}
+	#myNavbar{
+		font-size: 8px;
+	}
+	.offertext-search-page,.banner-search-page{
+	  font-size: 10px;
+	}
+	.dropdown-toggle{
+	  padding: 5px 10px;
+	}
+	.auto-suggetions{
+	  font-size: 12px !important;
+	}
+	.mobile-actions{
+	  margin-top: 10px;
+	}
+	.mobile-filters-close-div{
+	  margin-bottom: 20px;
+	}
+	
+   .navbar-header{
+     background: white;
+    }
+   .home-page .caption{
+      height: auto !important;
+    }
+    .carousel-image{
+      height: 100px !important;
+    }
+    
+  /*.ad-offer-code,.ad-offer-value,.ad-offer-store,.ad-offer-createdat,.ad-offer-navigation-link,.ad-offer-details-link{
+     font-size: 12px;
+   }*/
+}
+/* tab css */
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+	
+	.fa {
+		font-size: 14px !important;
+	}
+	.navigation-btn, .coupon-comments, .copy-coupon, .offer-page-link {
+		padding: 1px 4px;
+		font-size: 14px;
+		text-transform: capitalize;
+	}
+	#myNavbar{
+		font-size: 8px;
+		margin-top: -25px;
+	}
+	.mobile-actions{
+	  margin-top: 10px;
+	}
+	.navbar-nav{
+	 margin-left: 0px;
+   }
+   .navbar-header{
+     background: white;
+   }
+}
+/* desktop css*/
+@media only screen and (min-width: 768px){
+	
+	.navbar-brand{
+		position: absolute;
+	    height: 104px;
+	    padding-top: 40px;
+	    background: white;
+	}
+	#myNavbar{
+		margin-top: -25px;
+	}
+	
+	.coupon-body{
+	  height: 350px;
+	}
+}
+
